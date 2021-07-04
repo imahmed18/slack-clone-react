@@ -1,0 +1,36 @@
+.login {
+  display: grid;
+  place-items: center;
+}
+.login__container {
+  margin-top: -200px;
+  height: 100px;
+  display: grid;
+  place-items: center;
+  object-fit: contain;
+  margin-bottom: 40px;
+}
+.login__content {
+  z-index: 999;
+  margin-top: -300px;
+  display: grid;
+  place-items: center;
+}
+.login__container > img {
+  z-index: 0;
+}
+
+.login__container > a {
+  z-index: 1;
+  margin-top: -30px;
+  background-color: white;
+  padding-top: 9px;
+  text-align: center;
+  color: black;
+  border-radius: 999px;
+  font-weight: 700;
+  height: 30px;
+  width: 170px;
+  text-decoration: none;
+  cursor: pointer;
+}
